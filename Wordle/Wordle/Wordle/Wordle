@@ -1,0 +1,3 @@
+#! /bin/csh -f
+javac -d classes -cp .:classes Wordle.java
+java -cp .:classes Wordle
